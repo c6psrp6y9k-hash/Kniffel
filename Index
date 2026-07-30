@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>Kniffel Duo</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<h1>🎲 Kniffel Duo</h1>
+
+<div class="bonusAnzeige">
+
+Bonus:
+<span id="bonusDiff">+0</span>
+
+</div>
+
+<table id="kniffel">
+
+<tr>
+<th>Feld</th>
+<th>Punkte</th>
+</tr>
+
+<tr>
+<td>Einser</td>
+<td><input id="e1"></td>
+</tr>
+
+<tr>
+<td>Zweier</td>
+<td><input id="e2"></td>
+</tr>
+
+<tr>
+<td>Dreier</td>
+<td><input id="e3"></td>
+</tr>
+
+<tr>
+<td>Vierer</td>
+<td><input id="e4"></td>
+</tr>
+
+<tr>
+<td>Fünfer</td>
+<td><input id="e5"></td>
+</tr>
+
+<tr>
+<td>Sechser</td>
+<td><input id="e6"></td>
+</tr>
+
+<tr class="summe">
+<td>Obere Summe</td>
+<td id="oben">0</td>
+</tr>
+
+<tr class="summe">
+<td>Bonus</td>
+<td id="bonus">0</td>
+</tr>
+
+<tr>
+<td>Dreierpasch</td>
+<td><input id="d3"></td>
+</tr>
+
+<tr>
+<td>Viererpasch</td>
+<td><input id="d4"></td>
+</tr>
+
+<tr>
+<td>Full House</td>
+<td><input id="fh"></td>
+</tr>
+
+<tr>
+<td>Kleine Straße</td>
+<td><input id="ks"></td>
+</tr>
+
+<tr>
+<td>Große Straße</td>
+<td><input id="gs"></td>
+</tr>
+
+<tr>
+<td>Kniffel</td>
+<td><input id="kn"></td>
+</tr>
+
+<tr>
+<td>Chance</td>
+<td><input id="ch"></td>
+</tr>
+
+<tr class="summe">
+<td>Gesamt</td>
+<td id="gesamt">0</td>
+</tr>
+
+</table>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
